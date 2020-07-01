@@ -1,0 +1,63 @@
+.menu {
+   background-color: darkblue;
+}
+
+.list {
+   
+}
+
+li {
+    display: inline;
+   
+}
+
+.currentPage {
+    background-color: rgb(74, 85, 122);
+    padding: 10px;
+}
+
+.lichtblauw {
+    padding: 10px;
+}
+
+.schuingedrukt {
+    padding: 10px
+}
+
+.geel {
+    padding: 10px;
+}
+
+.pixels {
+    padding: 10px; 
+}
+
+
+.lichtblauw:hover, .currentPage:hover, .schuingedrukt:hover, .geel:hover  {
+   background-color: darkolivegreen;
+}
+
+.lichtblauw:hover  {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.schuingedrukt:active {
+    font-style: italic;
+    color: red;
+}
+
+
+.geel:visited { 
+    color:yellow;
+   
+}
+
+
+.pixels:focus {
+    font-size: 20px;
+    border: 1px solid darkgoldenrod; 
+    
+}
+
+
